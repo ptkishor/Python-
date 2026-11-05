@@ -1,7 +1,7 @@
 # This is a code to check voter eligibility based on age.
 
 name = "prashant"
-age = 16
+age = 20
 
 if  age >= 18:
     print("Hello," , name)
