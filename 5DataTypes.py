@@ -1,3 +1,4 @@
+import types
 
 
 a = 10
@@ -16,6 +17,77 @@ y = "100"
 
 print(type(x))
 print(type(y))
+
+
+
+#int data type
+
+age = 20
+marks = 85
+
+print(type(age))
+
+
+#Float data type
+
+price = 53.5
+height = 5.9
+
+print(type(price))
+
+
+
+#String Data Type
+
+
+name = 'Prashant'
+College ='St. Andrews College'
+
+print(type(name))
+
+
+#Bolean Data Type
+
+
+is_adult = True
+is_student = False
+
+
+print(type(is_adult))
+
+
+#list Data Type
+
+
+marks = [85, 90, 80, 65]
+
+print(type(marks))
+
+
+#touple Data Type
+
+numbers = (10, 20, 30, 40)
+
+print(type(numbers))
+
+
+
+#set Data Type
+
+numbers_set = {10, 20, 30, 40}
+
+print(type(numbers_set))
+
+
+#dict Data Type
+
+student = {
+    "name": "PRASHANT",
+    "age": 20
+}
+
+
+print(type(student))
 
 
 
