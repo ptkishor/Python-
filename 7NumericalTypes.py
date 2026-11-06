@@ -59,5 +59,22 @@ b = 20.5
 c = 200
 
 print(type(a))
+print(a.real)
+print(a.imag)
+
 print(type(b))
+print(b.real)
+print(b.imag)
+
 print(type(c))
+print(c.real)
+print(c.imag)
+
+x = int(b)
+y = float(c)
+
+print(x)
+print(y)
+
+print("Type of x:", type(x))
+print("Type of y:", type(y))
